@@ -28,7 +28,7 @@ const Footer = () => {
           </h2>
           <div className="flex items-center mt-2 bg-slate-800 px-4 py-2 rounded-full">
             <LucideIcons.Cpu className="w-5 h-5 mr-2 text-cyan-400" />
-            <span className="text-slate-200 font-medium">Auto Parts Manufacturing</span>
+            <span className="text-slate-200 font-medium">Hydraulics Parts Manufacturing</span>
           </div>
           <p className="text-slate-400 mt-3 text-center md:text-left">
             Precision Engineering | Innovative Solutions

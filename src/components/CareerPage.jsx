@@ -250,35 +250,37 @@ const CareerPage = () => {
         </div>
 
         {/* Upcoming Positions Notice with animation */}
-        <div className="mt-16 md:mt-20 text-center bg-gradient-to-r from-amber-50 to-yellow-50 border border-yellow-200 rounded-2xl p-8 md:p-10 mx-2 sm:mx-0 animate-notice opacity-0 transform translate-y-8">
-          <div className="w-16 h-16 bg-yellow-400 rounded-full mx-auto flex items-center justify-center mb-4">
-            <Target className="text-white w-8 h-8" />
+        <div className="mt-16 md:mt-20 text-center bg-gradient-to-r from-amber-50 to-yellow-50 border border-yellow-200 rounded-2xl p-5 md:p-10 mx-2 sm:mx-0 animate-notice opacity-0 transform translate-y-8">
+          <div className="w-12 h-12 md:w-16 md:h-16 bg-yellow-400 rounded-full mx-auto flex items-center justify-center mb-3 md:mb-4">
+            <Target className="text-white w-6 h-6 md:w-8 md:h-8" />
           </div>
-          <h3 className="text-2xl md:text-3xl font-bold text-yellow-800 mb-4 md:mb-5">
+          <h3 className="text-lg md:text-3xl font-bold text-yellow-800 mb-2 md:mb-5">
             Stay Tuned for More Opportunities!
           </h3>
-          <p className="text-base md:text-lg text-yellow-700 max-w-3xl mx-auto mb-6 md:mb-8 px-2 sm:px-0">
+          <p className="text-xs md:text-lg text-yellow-700 max-w-3xl mx-auto mb-4 md:mb-8 px-2 sm:px-0">
             We are continuously expanding our team. Keep an eye out for exciting new positions 
             that will be added soon. Your dream career might be just around the corner!
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-wrap justify-center gap-2 md:gap-4">
             <a 
               href="#subscribe" 
-              className="text-base px-6 py-3 md:px-8 md:py-4
+              className="text-xs px-3 py-1.5 sm:text-sm md:text-base sm:px-4 md:px-6 sm:py-2 md:py-3
               rounded-full bg-gradient-to-r from-yellow-400 to-amber-500 text-white 
               hover:from-yellow-500 hover:to-amber-600 transition-colors
-              shadow-md hover:shadow-lg transform hover:scale-105 font-semibold"
+              shadow-md hover:shadow-lg transform hover:scale-105 font-medium md:font-semibold
+              w-32 sm:w-36 md:w-40 text-center"
             >
-              Subscribe for Updates
+              Subscribe
             </a>
             <a 
               href="#contact" 
-              className="text-base px-6 py-3 md:px-8 md:py-4
+              className="text-xs px-3 py-1.5 sm:text-sm md:text-base sm:px-4 md:px-6 sm:py-2 md:py-3
               rounded-full bg-white text-yellow-600 
               hover:bg-yellow-50 transition-colors border border-yellow-300
-              shadow-sm hover:shadow-md transform hover:scale-105 font-semibold"
+              shadow-sm hover:shadow-md transform hover:scale-105 font-medium md:font-semibold
+              w-32 sm:w-36 md:w-40 text-center"
             >
-              Contact Recruitment
+              Contact Us
             </a>
           </div>
         </div>
@@ -302,8 +304,7 @@ const CareerPage = () => {
         }
         
         .slide-in-visible {
-          opacity: 1 !important;
-          transform: translateX(0) !important;
+          opacity: 1 !important;transform: translateX(0) !important;
         }
         
         /* Scale-in animation for job cards */

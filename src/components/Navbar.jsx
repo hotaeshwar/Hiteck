@@ -70,6 +70,7 @@ const Navbar = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Catalogue', href: '#catalogue' },
+    { name: 'Products', href: '#products' }, // Added Products link
     { name: 'Careers', href: '#careers' },
     { name: 'Contact', href: '#footer' }
   ];

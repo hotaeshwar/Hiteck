@@ -3,8 +3,10 @@ import Navbar from './components/Navbar'
 import HomePage from './components/HomePage'
 import AboutUs from './components/AboutUs'
 import Catalogue from './components/Catalogue'
+import IndustriesServed from './components/IndustriesServed'
 import CareerPage from './components/CareerPage'
 import Footer from './components/Footer'
+import ProductShowcase from './components/ProductShowcase'
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
       </div>
       <div id="catalogue">
         <Catalogue />
+      </div>
+      <div id="products">
+        <ProductShowcase />
+      </div>
+      <div id="industries">
+        <IndustriesServed />
       </div>
       <div id="careers">
         <CareerPage />
